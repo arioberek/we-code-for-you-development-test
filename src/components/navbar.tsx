@@ -14,7 +14,7 @@ export function Navbar() {
           <div className="flex items-center gap-4">
             <img
               src="logo.svg"
-              alt="cart"
+              alt="logo"
               className="h-10 w-10 p-2 bg-zinc-800/70 rounded-full"
             />
             <Link to="/" className="text-2xl font-bold text-primary-foreground">
