@@ -35,7 +35,7 @@ npm install
 3. Create a `.env` file in the root directory and add the following:
 
 ```
-VITE_API_URL=https://fakestoreapi.com
+VITE_API_URL=https://fakestoreapi.com/products
 ```
 
 ## Running the Project Locally
