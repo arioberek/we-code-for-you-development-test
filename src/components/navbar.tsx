@@ -13,7 +13,7 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-4">
             <img
-              src="src/assets/cart.svg"
+              src="logo.svg"
               alt="cart"
               className="h-10 w-10 p-2 bg-zinc-800/70 rounded-full"
             />
