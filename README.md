@@ -21,36 +21,30 @@ Before you begin, ensure you have the following installed on your local machine:
 
 1. Clone the repository:
 
-````
-
-git clone [https://github.com/arioberek/we-code-for-you-development-test](https://github.com/arioberek/we-code-for-you-development-test)
+```bash
+git clone https://github.com/arioberek/we-code-for-you-development-test
 cd we-code-for-you-development-test
-
-```plaintext
-
-2. Install the dependencies:
-````
-
-npm install
-
-```plaintext
-
-3. Create a `.env` file in the root directory and add the following:
 ```
 
-VITE_API_URL=[https://fakestoreapi.com](https://fakestoreapi.com)
+2. Install the dependencies:
 
-```plaintext
+```bash
+npm install
+```
+
+3. Create a `.env` file in the root directory and add the following:
+
+```
+VITE_API_URL=https://fakestoreapi.com
+```
 
 ## Running the Project Locally
 
 To start the development server:
 
-```
-
+```bash
 npm run dev
-
-```plaintext
+```
 
 This will start the application on `http://localhost:5173` (or another port if 5173 is already in use).
 
@@ -58,11 +52,9 @@ This will start the application on `http://localhost:5173` (or another port if 5
 
 To create a production build:
 
-```
-
+```bash
 npm run build
-
-```plaintext
+```
 
 This will generate a `dist` folder with the production-ready files.
 
@@ -96,4 +88,3 @@ This will generate a `dist` folder with the production-ready files.
 - [Fake Store API](https://fakestoreapi.com/) for providing mock e-commerce data
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful and accessible UI components
 - [Zustand](https://github.com/pmndrs/zustand) for the simple yet powerful state management
-```
