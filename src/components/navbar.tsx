@@ -12,7 +12,11 @@ export function Navbar() {
       <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-4">
-            <img src="src/assets/cart.svg" alt="cart" className="h-8 w-8" />
+            <img
+              src="src/assets/cart.svg"
+              alt="cart"
+              className="h-10 w-10 p-2 bg-zinc-800/70 rounded-full"
+            />
             <Link to="/" className="text-2xl font-bold text-primary-foreground">
               Shop4You
             </Link>
